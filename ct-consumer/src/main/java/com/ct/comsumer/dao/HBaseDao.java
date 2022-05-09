@@ -31,7 +31,6 @@ public class HBaseDao extends BaseDao {
                 + "_" + log.getCalltime() + "_" + log.getCall2() + "_" + log.getDuration() + "_1");
         putData(log);
     }
-
     /**
      * 将数据插入hbase中
      * @param value
