@@ -13,9 +13,6 @@ import java.util.List;
 
 public class HBaseDao extends BaseDao {
 
-    /**
-     *初始化
-     */
     public void init() throws IOException {
         start();
 
