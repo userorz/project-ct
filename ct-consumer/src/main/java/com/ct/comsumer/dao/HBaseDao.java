@@ -24,8 +24,6 @@ public class HBaseDao extends BaseDao {
         end();
     }
 
-
-
     public void insertData(Calllog log) throws IOException, IllegalAccessException {
         log.setRoeKey(genRegionNum(log.getCall1(),log.getCalltime()) + "_" +  log.getCall1()
                 + "_" + log.getCalltime() + "_" + log.getCall2() + "_" + log.getDuration() + "_1");
